@@ -13,7 +13,7 @@ public class Player {
     
     public void understandCards() {
         understanding=true;
-    }
+    }k
     
     public void printState() {
         System.out.println("acceptancce="+acceptance);
