@@ -13,7 +13,24 @@ public class Player {
     
     public void understandCards() {
         understanding=true;
-    }k
+    }
+    
+    
+    public void grandTichu() {
+        grandtichu=true;        
+    }
+    
+    public void acceptRestCards() {
+        acceptance_rest=true;
+    }
+    
+    public void understandingRestCards() {
+        understanding_rest=true;
+    }
+    
+    public void tichu() {
+        tichu=true;
+    }
     
     public void printState() {
         System.out.println("acceptancce="+acceptance);
