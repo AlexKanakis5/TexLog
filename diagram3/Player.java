@@ -6,9 +6,15 @@ public class Player {
     
     public Player(){
         acceptance=false;
+        acceptance_rest=false;
         understanding=false;
+        understanding_rest=false;
+        tichu=false;
+        grand_tichu=false;
     }
     
+
+    //oi metablhthes acceptance kai understaing einai symbolikes, molis ginei to prwto moirasma kai oi dyo ginontai aytomata true
     public void acceptCards() {
         acceptance=true;
     }
@@ -18,12 +24,17 @@ public class Player {
     }
     
     
+
+    //an o paikths pathsei to "koumpi" grand (poy den exei ylopoihthei,ayto einai ena megalo kommati) tote gineetai true 
+    //tha prepei na pairnei parapanw pontous an nikhsei me ayth th metablhth = true
     public void grand_tichu() {
         grand_tichu=true;        
         System.out.println("grand_tichu="+grand_tichu);
         System.out.println("\nOne player chose grand tichu\n");
     }
     
+
+    //oi acceptRestCards kai understand_rest einai epishs symbolikes
     public void acceptRestCards() {
         acceptance_rest=true;
     }
@@ -32,12 +43,15 @@ public class Player {
         understanding_rest=true;
     }
     
+    //to idio me to grand_tichu
     public void tichu() {
         tichu=true;
         System.out.println("\nOne player chose tichu\n");
         //System.out.println("tichu="+tichu);
     }
     
+
+    //apla gia debuging, den einai oti xreiazetai na ta emfanizoume ston xrhsth
     public void printState() {
         System.out.println("Acceptancce="+acceptance);
         System.out.println("Understanding="+understanding);
