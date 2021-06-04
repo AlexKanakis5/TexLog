@@ -35,6 +35,12 @@ public class Player {
     public void printState() {
         System.out.println("acceptancce="+acceptance);
         System.out.println("understanding="+understanding);
+        System.out.println("grandtichu="+grandtichu);
+        System.out.println("One player chose grand tichu");
+        System.out.println("acceptancce_new="+acceptance_rest);
+        System.out.println("understanding_new="+understanding_rest);
+        System.out.println("tichu="+tichu);
+        System.out.println("One player chose tichu");
     }
 }
 
