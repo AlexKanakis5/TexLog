@@ -1,3 +1,4 @@
+package diagram3;
 public class Player {
     public boolean acceptance,acceptance_rest;
     public boolean understanding,understanding_rest;
