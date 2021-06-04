@@ -1,4 +1,4 @@
-package paradoteo2;
+package diagram2;
 import java.util.Scanner;
 
 public class Main {
