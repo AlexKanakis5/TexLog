@@ -1,6 +1,7 @@
 public class Player {
-    public boolean acceptance;
-    public boolean understanding;
+    public boolean acceptance,acceptance_rest;
+    public boolean understanding,understanding_rest;
+    public boolean tichu,grand_tichu;
     
     public Player(){
         acceptance=false;
@@ -16,8 +17,10 @@ public class Player {
     }
     
     
-    public void grandTichu() {
-        grandtichu=true;        
+    public void grand_tichu() {
+        grand_tichu=true;        
+        System.out.println("grand_tichu="+grand_tichu);
+        System.out.println("\nOne player chose grand tichu\n");
     }
     
     public void acceptRestCards() {
@@ -30,17 +33,16 @@ public class Player {
     
     public void tichu() {
         tichu=true;
+        System.out.println("\nOne player chose tichu\n");
+        //System.out.println("tichu="+tichu);
     }
     
     public void printState() {
-        System.out.println("acceptancce="+acceptance);
-        System.out.println("understanding="+understanding);
-        System.out.println("grandtichu="+grandtichu);
-        System.out.println("One player chose grand tichu");
-        System.out.println("acceptancce_new="+acceptance_rest);
-        System.out.println("understanding_new="+understanding_rest);
-        System.out.println("tichu="+tichu);
-        System.out.println("One player chose tichu");
+        System.out.println("Acceptancce="+acceptance);
+        System.out.println("Understanding="+understanding);
+        System.out.println("Acceptancce_rest="+acceptance_rest);
+        System.out.println("Understanding_rest="+understanding_rest);
+        
     }
 }
 
