@@ -22,7 +22,7 @@ public class Player {
         grand_tichu=true;        
         System.out.println("grand_tichu="+grand_tichu);
         System.out.println("\nOne player chose grand tichu\n");
-         // System.out.println("\nOne player chose grand tichu\n");
+        
     }
     
     public void acceptRestCards() {
