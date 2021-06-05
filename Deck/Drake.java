@@ -3,8 +3,8 @@ public class Drake extends SpecialCards{
     
     public Drake(){
         super();
-        this.setCredits(25);
-        this.setValue(20);
+        this.setArithmos(25);
+        this.setPontoi(20);
         this.color(NONE);    
     }
 }
