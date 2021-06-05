@@ -17,10 +17,8 @@ public class Mahjong extends SpecialCards{
         return DemandNumber;
     }
 
-    /**
-     * transformers
-     * thetei sto DemandNumber ton arithmo pou zitithike
-     */
+     // thetei sto DemandNumber ton arithmo pou zitithike
+
     public void setDemandNumber(int DemandNumber) {
         this.DemandNumber = DemandNumber;
     }
