@@ -5,6 +5,7 @@ public class Screen {
     public boolean show_help_screen;
     public boolean pressed_login;
     public boolean login_success;
+    public boolean main_screen_with_username;
     public boolean pressed_help;
     public boolean pressed_message;
     public String password;
@@ -18,6 +19,7 @@ public class Screen {
         pressed_message = false;
         pressed_login = false;
         login_success = false;
+        main_screen_with_username = false;
     }
 
     public void show_main_screen()
@@ -54,6 +56,12 @@ public class Screen {
 
 
 
+    }
+    
+    public void show_main_screen_with_username() 
+    {
+        main_screen_with_username = true;
+        System.out.println("showing main screen username...\n");
     }
     
 }
