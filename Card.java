@@ -11,8 +11,7 @@ public abstract class Card {//thn ftiaxnoume abstract wste h klash Card na klhro
    
     /**
      * Get Method opou epistrefei ton arithmo kathe kartas 1:Mahjong, 2:2,..., J:11, Q:12, K:13, A:14
-     * Epistrefei double giati o Foinikas dinei 0.5+prohgoumenos arithmos pou paixthke
-     * @return double 
+     * Epistrefei double giati o Foinikas dinei 0.5+prohgoumenos arithmos pou paixthke @return double;
      */
     public int getArithmos() {
         return this.arithmos;
