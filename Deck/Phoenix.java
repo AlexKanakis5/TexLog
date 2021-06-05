@@ -5,8 +5,8 @@ public class Phoenix extends SpecialCards{
     
     public Phoenix(){
         super();
-        this.setCredits(-25);
-        this.setValue(-1);
+        this.setPontoi(-25);
+        this.setArithmos(-1);
         this.color(NONE);
     }
 }
