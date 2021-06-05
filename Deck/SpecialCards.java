@@ -1,7 +1,7 @@
-public abstract class SpecialCard extends Card {
+public abstract class SpecialCards extends Cards {
      
     //constructor
-    public SpecialCard(){
+    public SpecialCards(){
         
     }  
 }
