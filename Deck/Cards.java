@@ -48,4 +48,12 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhr
     public void setPontoi(int pontoi) {
         this.pontoi = pontoi;
     }
+    
+        public boolean isPhoenix() {
+        return false;
+    }
+
+    public boolean isSpecialCard() {
+        return false;
+    }
 }
