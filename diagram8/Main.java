@@ -1,8 +1,18 @@
 package diagram8;
 
 
-//EXEI POLLA ENDELSS LOOPS giati den kserw pws tha poume oti allazoun ta screens 
-//oti exw grapsei einai entelws "proof of concept"
+/*EXEI POLLA ENDELSS LOOPS giati den kserw pws tha poume oti allazoun ta screens 
+  oti exw grapsei einai entelws "proof of concept"
+  ayth th stigmh mexri na paththei to escape, deixnei synexws to idio screen
+  
+  oxi apla to deixnei, alla synexws kanei refresh to periexomeno toy screen
+  tha prepei na brethei kapoios poio katallhlos tropos gia na yolopoihthei ayto gia na apofygoyme ayta ta loops
+
+*/
+
+
+
+
 public class Main{
     
     public static void main(String args[]) {
