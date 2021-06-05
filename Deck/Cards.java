@@ -1,10 +1,10 @@
-public abstract class Card {//thn ftiaxnoume abstract wste h klash Card na klhronomeitai apo tis alles klaseis pou aforoun tis eidikes kartes
+public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhronomeitai apo tis alles klaseis pou aforoun tis eidikes kartes
 
     private int pontoi;     //gia thn katametrhsh twn pontwn twn kartwn
     private int arithmos;  //kathe karta analogei se enan arithmo me thn proteraiothta pou isxuei sthn trapoula px to Mahjong=1, to 2=2,..., to J=11, to Q=12, to K=13, to A=14
    
     //constructor
-    public Card( ) {
+    public Cards( ) {
         this.pontoi = 0;
         this.arithmos = 0;
     }
