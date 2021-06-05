@@ -3,8 +3,8 @@ public class Dogs extends SpecialCards {
     //constructor
     public Dogs(){
         super();
-        this.setCredits(0);
-        this.setValue(0);
+        this.setArithmos(0);
+        this.setPontoi(0);
         this.color(NONE);
     }
 }
