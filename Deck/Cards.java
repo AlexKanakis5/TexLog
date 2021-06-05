@@ -49,10 +49,12 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhr
         this.pontoi = pontoi;
     }
     
+    //method gia elegxo ean einai Foinikas
         public boolean isPhoenix() {
         return false;
     }
-
+    
+   //method gia elegxo ean einai kapoia SpecialCard
     public boolean isSpecialCard() {
         return false;
     }
