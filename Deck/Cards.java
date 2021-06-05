@@ -2,7 +2,8 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhr
 
     private int pontoi;     //gia thn katametrhsh twn pontwn twn kartwn
     private double arithmos;  //kathe karta analogei se enan arithmo me thn proteraiothta pou isxuei sthn trapoula px to Mahjong=1, to 2=2,..., to J=11, to Q=12, to K=13, to A=14
-   
+    Color color;
+    
     //constructor
     public Cards( ) {
         this.pontoi = 0;
@@ -23,6 +24,14 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhr
   
     public void setArithmos(double number) {
         this.arithmos = number;
+    }
+    
+    //To enum type einai ena special data type to opoio epitrepei se mia metablhth na apoteleitai apo ena set prokathorismenwn timwn. 
+    //H metavliti prepei na einai ish me mia apo autes tis prokathorismenes times. Xrhsimopoieitai wste na apofeugetai o orismos timwn pou den einai egkures.
+       public enum Color {NONE, RED, GREEN, BLACK, BLUE}
+    
+      public Color getColor() {
+        return color;
     }
 
     /**
