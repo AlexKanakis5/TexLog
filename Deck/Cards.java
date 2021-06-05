@@ -6,7 +6,7 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Card na klhr
     //constructor
     public Cards( ) {
         this.pontoi = 0;
-        this.arithmos = 0;
+        this.arithmos = 0.0;
     }
    
     /**
