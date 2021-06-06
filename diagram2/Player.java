@@ -27,8 +27,7 @@ public class Player {
     
     public void understandCards() {
         understanding=true;
-    }
-    
+    }  
     
 
     //an o paikths pathsei to "koumpi" grand (poy den exei ylopoihthei,ayto einai ena megalo kommati) tote gineetai true 
