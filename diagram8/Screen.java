@@ -62,6 +62,5 @@ public class Screen {
     {
         main_screen_with_username = true;
         System.out.println("showing main screen username...\n");
-    }
-    
+    }    
 }
