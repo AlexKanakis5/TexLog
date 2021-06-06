@@ -58,7 +58,7 @@ public class Screen {
 
     }
     
-    public void show_main_screen_with_username() 
+    public void show_main_screen_with_username() //meta to log in, emfanizetai i arxikh othonh me to username
     {
         main_screen_with_username = true;
         System.out.println("showing main screen username...\n");
