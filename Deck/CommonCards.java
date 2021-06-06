@@ -46,7 +46,7 @@ public class CommonCards extends Cards {
         return ranks[rank];
     }
 
-    // kanoume rank to rank sto set
+    // set method gia to rank
     public void setRank(int rank) {
         this.rank = rank;
     }    
