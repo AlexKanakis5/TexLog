@@ -99,5 +99,18 @@ public class Player {
     {
         // o paixtis kanei xrisi tis bombas tou 
     }
+    // proshiki kwdika gia xrisi dragon kai skilwn sto paixnidi 8/6/2021
+    public void use_dragon()
+    {
+        // periptwsi xrisis 6 xrisi drakou aparaititi sinartisi
+    }
+    public void use_dog()
+    {
+        // periptwsi xrisis 7 xrisi dog aparaititi sinartisi
+    }
+    public void give_collected_cards()
+    {
+        // periptwsi xrisis 6 xrisi drakou aparaititi sinartisi
+    }
 }
 
