@@ -1,3 +1,4 @@
+import java.awt.Color;
 public class CommonCards extends Cards {
 
   private int rank;
