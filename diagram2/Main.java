@@ -2,7 +2,7 @@ package diagram2;
 import java.util.Scanner;
 
 /*
-    Parakalw kapoios na balei posous max paiktes theloyme
+   to project mas tha prepei na ipostirizei 64 diladi 128 paixtes
     
     
 */
