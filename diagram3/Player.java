@@ -79,5 +79,25 @@ public class Player {
     public void recive_card_left() {
          //paralabi fulou  aristera pexti
     }
+        // proshiki kwdika gia tis kiniseis sto paixnidi 8/6/2021
+    public void ask_for_card(){
+        // apaiti tin uparxei majong kai na tin rixnei o paixtis stin arxi
+    }
+    public void drop_cards()
+    {
+        // riximo kartas oi kartwn apo ton paixti 
+    }
+    public void collect_cards()
+    {
+        // maze ton kartwn apo ton paixti me tin proipothesi oti exoun paei oi alloi paso
+    }
+    public void fold()
+    {
+        // o paixtis paei paso stin seira tou
+    }
+    public void drop_bomb()
+    {
+        // o paixtis kanei xrisi tis bombas tou 
+    }
 }
 
