@@ -1,4 +1,4 @@
-import java.awt.Color;
+import java.awt.Color;     //allagi pou egine stis 8/6/2021 gia na douleuoun ta xrwmata
 public class CommonCards extends Cards {
 
   private int rank;
