@@ -31,6 +31,11 @@ public class Messagebox
     {
          System.out.println("You have add a new friend!\n");
     }
+    // minima gia mi epitiximeni proshiki filou
+    public void friend_decline_msg()
+    {
+         System.out.println("You have not add a new friend!\n");
+    }
     // erwtisi gia prosthiki filou
     public void print_add_friend_msg()
     {
