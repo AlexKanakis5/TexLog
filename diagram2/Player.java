@@ -73,5 +73,12 @@ public class Player {
         System.out.println("Understanding_rest="+understanding_rest);
         
     }
+    // gia na kanei compile prothesa autin xwris na metraei pontous akoma
+     public int calcpoints() {
+        int sum =0;
+        System.out.println("\nHere we must calculate player points\n");
+        //System.out.println("tichu="+tichu);
+        return sum;
+    }
 }
 
