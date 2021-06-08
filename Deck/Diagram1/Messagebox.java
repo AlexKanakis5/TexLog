@@ -31,4 +31,9 @@ public class Messagebox
     {
          System.out.println("You have add a new friend!\n");
     }
+    // erwtisi gia prosthiki filou
+    public void print_add_friend_msg()
+    {
+        System.out.println("Do you want to add friend?\n");
+    }
 }
