@@ -26,4 +26,9 @@ public class Messagebox
     {
         System.out.println("You have to finish trading hurry up!\n");
     }
+    // minima gia epitiximeni proshiki filou
+    public void friend_add_msg()
+    {
+         System.out.println("You have add a new friend!\n");
+    }
 }
