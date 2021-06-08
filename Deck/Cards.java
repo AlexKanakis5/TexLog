@@ -1,8 +1,15 @@
+import java.awt.Color;    //allagi pou egine stis 8/6/2021 gia na douleuoun ta xrwmata
 public abstract class Cards {//thn ftiaxnoume abstract wste h klash Cards na klhronomeitai apo tis alles klaseis pou aforoun tis eidikes kartes
 
     private int pontoi;     //gia thn katametrhsh twn pontwn twn kartwn
     private double arithmos;  //kathe karta analogei se enan arithmo me thn proteraiothta pou isxuei sthn trapoula px to Mahjong=1, to 2=2,..., to J=11, to Q=12, to K=13, to A=14
-    Color color;
+    public Color color;
+    //allagi pou egine stis 8/6/2021 gia na douleuoun ta xrwmata 
+    public static final Color NONE = new Color(255,255,255);
+    public static final Color RED = new Color(255,102,0);
+    public static final Color BLACK = new Color(0,0,0);
+    public static final Color BLUE = new Color(0,0,204);
+    public static final Color GREEN = new Color(0,204,0);
     
     //constructor
     public Cards( ) {
