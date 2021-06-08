@@ -60,5 +60,24 @@ public class Player {
         System.out.println("Understanding_rest="+understanding_rest);
         
     }
+      // proshiki kwdika gia tin antallagi fullwn 8/6/2021
+    public void send_card_teamate() {
+        //apostoli fulou ston simpexti
+    }
+    public void recive_card_teamate() {
+        //paralabi fulou  simpexti
+    }
+    public void send_card_right() {
+        //apostoli fulou ston dexia pexti
+    }
+    public void recive_card_right() {
+         //paralabi fulou  dexia pexti
+    }
+    public void send_card_left() {
+        //apostoli fulou ston aristera pexti
+    }
+    public void recive_card_left() {
+         //paralabi fulou  aristera pexti
+    }
 }
 
