@@ -5,7 +5,7 @@ package diagram8;
   ayth th stigmh mexri na paththei to escape, deixnei synexws to idio screen
   
   oxi apla to deixnei, alla synexws kanei refresh to periexomeno toy screen
-  tha prepei na brethei kapoios poio katallhlos tropos gia na yolopoihthei ayto gia na apofygoyme ayta ta loops
+  tha prepei na brethei katallhlos tropos gia na yolopoihthei ayto gia na apofygoyme ayta ta loops
 */
 
 
