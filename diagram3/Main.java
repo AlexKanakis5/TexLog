@@ -1,12 +1,7 @@
 package diagram3;
 import java.util.Scanner;
 
-/*edw mporei na ylopoihthei ena deck 
-
-    mporei na breite ayto to video xrhsimo gia to pws tha ginei https://www.youtube.com/watch?v=AckjW0C2vc8
-    
-    skefteite epishs oti pera apo tis kanonikes kartes ths trapoulas exoume kai 4 eidikes
-    Majong Drakos Skylia Pouli
+/*
 
     profanws tha exoume 4 paiktes opote olh h diadikasia tha prepei na ginei kai gia toys 4
 
