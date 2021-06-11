@@ -40,7 +40,8 @@ public class Main{
 
         if (sc.pressed_show_friend_requests)
         {
-            sc.show_friends_screen();
+            
+            sc.add_friend_message();
         }
 
         

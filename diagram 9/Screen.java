@@ -1,6 +1,8 @@
 //package diagram9;
-import java.nio.charset.Charset; //gia to friends array
+import java.util.ArrayList;
+
 import java.util.Random; //gia th dhmiourgia random number kai random string
+import java.util.Scanner;
 
 public class Screen {
     public boolean show_friends_screen;
@@ -12,38 +14,43 @@ public class Screen {
     public boolean pressed_show_friend_requests;
     
     public int friend_requests;
-    public String[] friends;
+    ArrayList<String> friends = new ArrayList<String>();
+    ArrayList<String> accepted_friends = new ArrayList<String>();
 
 
     public Screen()
     {
-        show_friends_screen = false; //gia na deiksei to frineds screen 
+        show_friends_screen = true; //gia na deiksei to frineds screen 
         show_add_friend_screen= false; 
         pressed_add_friend = false; //gia na deiksei to add friends screen
         enable_mic = false; //gia energopoihsh toy mic 
-        pressed_show_friend_requests = true;
+        pressed_show_friend_requests = false;
 
 
-        /* ta parakatw eiani se sxolia den kserw giati trww ayto to error
-
-        Exception in thread "main" java.lang.NullPointerException
-        at Screen.<init>(Screen.java:40)
-        at Main.main(Main.java:13)
-        */
-
-        // //dhmiourgia friend requests kai enos array me friends
-        // Random rand = new Random();
-        // int friend_requests = rand.nextInt(20);
+        Random rand = new Random(); //instance of random class
+    
+        //dhmiourgia friend requests kai enos array me friends
+        int friend_requests= rand.nextInt(20); 
 
 
-        // //for loop gia to friend array
-        // for(int i=1;i<=friend_requests;i++)
-        // {
-        //     byte[] array = new byte[friend_requests]; // length is bounded by 7
-        //     new Random().nextBytes(array);
-        //     String generatedString = new String(array, Charset.forName("UTF-8"));
-        //     friends[i]= generatedString;
-        // } //dhmiourgia array me friends analoga me ta posa friend requests exei 
+
+        //for loop gia to friend array
+        for(int i=1;i<=friend_requests;i++)
+        {
+            int leftLimit = 97; // letter 'a'
+            int rightLimit = 122; // letter 'z'
+            int targetStringLength = 10;
+            Random random = new Random();
+            StringBuilder buffer = new StringBuilder(targetStringLength);
+            for (int j = 0; j < targetStringLength; j++) {
+                int randomLimitedInt = leftLimit + (int) 
+                  (random.nextFloat() * (rightLimit - leftLimit + 1));
+                buffer.append((char) randomLimitedInt);
+            }
+            String generatedString = buffer.toString();
+            //System.out.println(generatedString);
+            friends.add(generatedString);
+        } //dhmiourgia array me friends analoga me ta posa friend requests exei 
 
 
 
@@ -53,7 +60,8 @@ public class Screen {
 
     public void show_friends_screen()
     {
-        System.out.println("\nshowing friends screen...\n");
+        System.out.println("\nshowing friends screen...\n"+accepted_friends);
+        
     }
 
     public void show_add_friend_screen()
@@ -75,12 +83,54 @@ public class Screen {
     {
         System.out.println("\nshowing friend requests...\n");
         
-        // // ektypwsh olwn twn friend requests (onomatwn friends, tyxaio string kai megethoss array)
-        // for(int i=1;i<=friend_requests;i++)
-        // {
-        //     System.out.println("\n"+friends[i]);
-        // }
+        // ektypwsh olwn twn friend requests (onomatwn friends, tyxaio string kai megethoss array)
+       
+            System.out.println("\n"+friends);
 
-    }
+
+
+        // apo ayto to shmeio kai meta ylopoieitai ena loop gia thn apodoxh h diagrafh filwn    
+        System.out.println("\nType 1 if you want to accept/remove a friend:");
+
+        Scanner user_in = new Scanner(System.in);
+        int add_remove_escape = user_in.nextInt(); 
+        while(add_remove_escape == 1)
+        {
+            user_in.nextLine(); 
+            System.out.println("\nType friend name:");
+            String friend_name = user_in.nextLine(); 
+            System.out.println("\nType accept|remove|cancel\n");
+            String accept_remove_cancel = user_in.nextLine(); 
+            if(accept_remove_cancel == "accept")
+            {
+                accepted_friends.add(friend_name);
+                friends.remove(friend_name);
+                System.out.println("\nFriend added to your friends list!\n"+friend_name);
+                System.out.println("\nUpdated friends list"+accepted_friends);
+            }
+            if(accept_remove_cancel == "remove")
+            {
+                friends.remove(friend_name);
+                System.out.println("\nFriend deleted from friend requests!\n"+friend_name);
+            }
+            if(accept_remove_cancel == "cancel")
+            {
+                System.out.println("\ncancelled..\n");
+            }
+
+            System.out.println("\nUpdated friends list"+friends);
+
+            System.out.println("\nType 1 if you want to accept/remove a friend\nType 2 to cancel:");
+            add_remove_escape = user_in.nextInt(); 
+
+
+    
+        } //end while add_remove_escape
+
+
+         // apo ayto to shmeio kai meta ylopoieitai ena loop gia thn apodoxh h diagrafh filwn    
+
+        user_in.close();
+    }//end add friend message
 
 }
