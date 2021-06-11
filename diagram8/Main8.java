@@ -1,21 +1,12 @@
-package diagram8;
-
-/*EXEI POLLA ENDELSS LOOPS giati den kserw pws tha poume oti allazoun ta screens 
-  oti exw grapsei einai entelws "proof of concept"
-  ayth th stigmh mexri na paththei to escape, deixnei synexws to idio screen
-  
-  oxi apla to deixnei, alla synexws kanei refresh to periexomeno toy screen
-  tha prepei na brethei katallhlos tropos gia na yolopoihthei ayto gia na apofygoyme ayta ta loops
-*/
 
 
 
 
-public class Main{
+public class Main8{
     
     public static void main(String args[]) {
         
-        Screen sc = new Screen();
+        Screen8 sc = new Screen8();
 
 
         sc.show_login_screen();

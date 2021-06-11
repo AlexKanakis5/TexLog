@@ -1,6 +1,3 @@
-package diagram2;
-
-// prepei na ftiaksoume methodo gia na ypologizoume tous pontous poy exei mazepsei o kathenas ap th mpaza tou
 
 public class Team {
     private Player p1;

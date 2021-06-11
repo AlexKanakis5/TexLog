@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random; //gia th dhmiourgia random number kai random string
 import java.util.Scanner;
 
-public class Screen {
+public class Screen9 {
     public boolean show_friends_screen;
     public boolean show_add_friend_screen;
     public boolean pressed_add_friend;
@@ -18,7 +18,7 @@ public class Screen {
     ArrayList<String> accepted_friends = new ArrayList<String>();
 
 
-    public Screen()
+    public Screen9()
     {
         show_friends_screen = true; //gia na deiksei to frineds screen 
         show_add_friend_screen= false; 

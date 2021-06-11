@@ -1,16 +1,18 @@
-//package diagram9;
+
 import java.util.Scanner;
 
+//Ta "type" poy zhtame apo ton xrhsth input einai apla gia thn prosomoiosh koumpiwn poy tha patouse gia na kanei tis zhtoumenes energeies
 
 
-public class Main{
+
+public class Main9{
     
     public static void main(String args[]) {
         System.out.println("\n Type 1 to search with mic\n Type 2 to search without mic");
 
         
         Scanner user_in = new Scanner(System.in);
-        Screen sc = new Screen();
+        Screen9 sc = new Screen9();
 
         sc.show_friends_screen();
 

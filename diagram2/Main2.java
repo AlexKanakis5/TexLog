@@ -1,4 +1,3 @@
-package diagram2;
 import java.util.Scanner;
 
 /*
@@ -8,7 +7,7 @@ import java.util.Scanner;
 */
 
 
-public class Main {
+public class Main2 {
     public static void main(String args[]) {
 
         Scanner user_in = new Scanner(System.in);
@@ -18,10 +17,10 @@ public class Main {
 
         if (press_play == 1)
         {
-            System.out.println("Type number of players (MAX 40)\n"); //den kserw posoi paiktes, allakste to ayto
+            System.out.println("Type number of players (MAX 128)\n"); //den kserw posoi paiktes, allakste to ayto
             int number_of_players = user_in.nextInt();
 
-            while ( (number_of_players > 40) || (number_of_players<2) || (number_of_players%2 != 0) )
+            while ( (number_of_players > 128) || (number_of_players<2) || (number_of_players%2 != 0) )
             {
 
                 if (number_of_players <= 1)
@@ -34,7 +33,7 @@ public class Main {
                     System.out.println("Player number must be divisible by 2\n"); 
                 }
 
-                System.out.println("Invalid player number (MAX 40)\n");
+                System.out.println("Invalid player number (MAX 128)\n");
                 number_of_players = user_in.nextInt();
 
             } //end while
@@ -69,5 +68,7 @@ public class Main {
         {
             System.out.println("*Goodbye*\n");
         }
+
+        user_in.close(); //close user input
     }//end void main
 }//END MAIN

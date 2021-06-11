@@ -1,6 +1,5 @@
-package diagram8;
 import java.util.Scanner;
-public class Screen {
+public class Screen8 {
     public boolean show_main_screen;
     public boolean show_help_screen;
     public boolean pressed_login;
@@ -11,7 +10,7 @@ public class Screen {
     public String password;
     public String username;
 
-    public Screen()
+    public Screen8()
     {
         show_main_screen = false;
         show_help_screen = false;

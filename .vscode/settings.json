@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "diagram9",
+        "diagram8",
+        "diagram10",
+        "diagram 9",
         "Deck",
-        "diagram 9"
+        "diagram2"
     ]
 }

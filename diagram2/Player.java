@@ -1,4 +1,3 @@
-package diagram2;
 public class Player {
     public boolean acceptance,acceptance_rest;
     public boolean understanding,understanding_rest;
@@ -73,12 +72,17 @@ public class Player {
         System.out.println("Understanding_rest="+understanding_rest);
         
     }
+
+    // duplicate calcpoints() den kserw giati 
+    // mporei na thn eftiaksa egw kai na mhn to thymamai
+
     // gia na kanei compile prothesa autin xwris na metraei pontous akoma
-     public int calcpoints() {
-        int sum =0;
-        System.out.println("\nHere we must calculate player points\n");
-        //System.out.println("tichu="+tichu);
-        return sum;
-    }
+
+    //  public int calcpoints() {
+    //     int sum =0;
+    //     System.out.println("\nHere we must calculate player points\n");
+    //     //System.out.println("tichu="+tichu);
+    //     return sum;
+    // }
 }
 
