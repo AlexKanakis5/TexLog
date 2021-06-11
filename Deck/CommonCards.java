@@ -1,6 +1,5 @@
 import java.awt.Color;     //allagi pou egine stis 8/6/2021 gia na douleuoun ta xrwmata
 public class CommonCards extends Cards {
-
   private int rank;
 
 	private static String[] ranks  = { "-1","-1" , "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13","14" };
