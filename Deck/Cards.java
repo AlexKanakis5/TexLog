@@ -35,7 +35,7 @@ public abstract class Cards {//thn ftiaxnoume abstract wste h klash Cards na klh
     
     //To enum type einai ena special data type to opoio epitrepei se mia metablhth na apoteleitai apo ena set prokathorismenwn timwn. 
     //H metavliti prepei na einai ish me mia apo autes tis prokathorismenes times. Xrhsimopoieitai wste na apofeugetai o orismos timwn pou den einai egkures.
-       public enum Color {NONE, RED, GREEN, BLACK, BLUE}
+       
     
       public Color getColor() {
         return color;

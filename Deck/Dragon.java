@@ -1,7 +1,7 @@
-public class Drake extends SpecialCards{
+public class Dragon extends SpecialCards{
     
     
-    public Drake(){
+    public Dragon(){
         super();
         this.setArithmos(20);
         this.setPontoi(25);

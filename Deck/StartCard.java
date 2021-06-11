@@ -1,4 +1,4 @@
-public class Mahjong extends SpecialCards{
+public class StartCard extends SpecialCards{
     int DemandNumber;
   
     //constructor
