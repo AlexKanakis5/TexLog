@@ -3,7 +3,7 @@ public class StartCard extends SpecialCards{
   
     //constructor
   
-  public Mahjong()
+  public StartCard()
     {
         super();
         this.setArithmos(1);
